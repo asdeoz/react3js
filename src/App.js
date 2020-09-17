@@ -5,8 +5,8 @@ import CubeComponent from './components/CubeComponent';
 function App() {
   return (
     <>
-      <CubeComponent />
-      <CubeComponent />
+      <CubeComponent width={200} height={200} />
+      <CubeComponent width={300} height={300} />
     </>
   );
 }
